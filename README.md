@@ -2,7 +2,7 @@
 
 A Christmas themed 3D drone game where you deliver presents to houses scattered across a snow covered landscape.
 
-    [image]
+![dronedelivery](https://github.com/user-attachments/assets/8371f907-5dfc-43da-a193-bf80758ab702)
 
 ## Gameplay
 
@@ -40,8 +40,7 @@ Follow the instructions in the [framework repository](https://github.com/UPB-Gra
 
 ## Preview
 
-    [video]
-
+https://github.com/user-attachments/assets/1f96132d-4b1b-4319-a261-f591dd551010
 
 ## Licence
 
