@@ -14,6 +14,7 @@ Pick up presets from under the Christmas tree and deliver them to houses across 
 
 - Use the `mouse` or `arrow keys` to control direction
 - Use  `W`/`S` to control thrust
+- Use the `scroll` wheel to adjust FOV
 
 ### Mechanics
 
