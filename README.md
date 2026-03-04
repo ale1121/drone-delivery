@@ -1,6 +1,6 @@
 # Santa's Drone Delivery
 
-A 3D drone delivery game implemented in C++ using OpenGL, featuring procedurally generated terrain, shader-based visual effects and physics-based collision detection
+A 3D drone delivery game implemented in C++ using OpenGL, featuring procedurally generated terrain, shader visual effects and collision detection
 
 Developed as part of a computer graphics project using the [gfx-framework](https://github.com/UPB-Graphics/gfx-framework), with all scene elements generated programmatically from vertex data
 
