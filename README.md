@@ -40,3 +40,7 @@ Follow the build instructions in the [gfx-framework repository](https://github.c
 ## Preview
 
 https://github.com/user-attachments/assets/1f96132d-4b1b-4319-a261-f591dd551010
+
+## Project Structure
+
+The Drone Delivery implementation is located in [`src/drone_delivery`](src/drone_delivery)
