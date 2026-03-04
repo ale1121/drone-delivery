@@ -1,56 +1,42 @@
 # Santa's Drone Delivery
 
-A Christmas themed 3D drone game where you deliver presents to houses scattered across a snow covered landscape.
+A 3D drone delivery game implemented in C++ using OpenGL, featuring procedurally generated terrain, shader-based visual effects and physics-based collision detection
+
+Developed as part of a computer graphics project using the [gfx-framework](https://github.com/UPB-Graphics/gfx-framework), with all scene elements generated programmatically from vertex data
 
 ![dronedelivery](https://github.com/user-attachments/assets/8371f907-5dfc-43da-a193-bf80758ab702)
 
 ## Gameplay
 
-### Objective
+The player controls a drone that collects presents from a central Christmas tree and delivers them to randomly selected houses scattered across a snowy terrain.
 
-Pick up presets from under the Christmas tree and deliver them to houses across the map
+Each successful delivery generates a new target location, requiring the player to navigate through obstacles while managing flight direction and thrust.
 
 ### Controls
 
-- Use the `mouse` or `arrow keys` to control direction
-- Use  `W`/`S` to control thrust
-- Use the `scroll` wheel to adjust FOV
+- `Mouse` / `Arrow keys` - control drone direction
+- `W`/`S` - increase/decrease thrust
+- `Scroll wheel` - adjust field of view
 
-### Mechanics
+### Graphics and features
 
-- A present spawns under the Christmass tree
-- After picking up the present, a random house is marked as the delivery point, with an arrow indicating its direction
-- Once delivered, a new present spawns under the tree
+- Procedural terrain generation using randomised noise patterns
+- Vertex shader tree animation where trees dynamically bend away from the drone
+- Fog rendering using fragment shaders
+- Randomized obstacle placement for varied gameplay
+- Collision detection preventing the drone from intersecting terrain or objects
+- Score tracking based on delivery count and completion time
 
 ## Technical Details
 
-- Built in C++ with OpenGL and GLSL for vertex and fragment shaders
-- All visual elements are created programatically from vertex data
-- Uses the [gfx-framework](https://github.com/UPB-Graphics/gfx-framework)
-### Features
-
-- Tree vertex shader - trees bend away as the drone flies past them
-- Terrain shaders - terrain modeled using random noise patterns
-- Fog effect in fragment shaders
-- Randomized obstacle placement
-- Collision detection prevents the drone from flying through obstacles or terrain
-- Scoring system based on number of presents delivered and delivery time, displayed in the terminal
+- Implemented in C++ with OpenGL
+- GLSL vertex and fragment shaders
+- Scene geometry generated entirely from vertez data
+- Built using [gfx-framework](https://github.com/UPB-Graphics/gfx-framework)
 
 ## Building and running
-Follow the instructions in the [framework repository](https://github.com/UPB-Graphics/gfx-framework?tab=readme-ov-file#gear-building). This project uses module 1. 
+Follow the build instructions in the [gfx-framework repository](https://github.com/UPB-Graphics/gfx-framework?tab=readme-ov-file#gear-building). This project uses module 1. 
 
 ## Preview
 
 https://github.com/user-attachments/assets/1f96132d-4b1b-4319-a261-f591dd551010
-
-## Licence
-
-This project does not have its own license.
-
-The included framework is licensed under the MIT License.
-
-<br>
-
-***
-
-Developed as part of the Fundamentals of Computer Graphics course at UNSTPB
